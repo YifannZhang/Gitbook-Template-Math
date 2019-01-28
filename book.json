@@ -1,0 +1,82 @@
+{
+	"generator": "site",
+	"language": "zh-hans",
+	"pdf": {
+		"fontSize": 12,
+		"footerTemplate": null,
+		"headerTemplate": null,
+		"margin": {
+		"bottom": 36,
+		"left": 62,
+		"right": 62,
+		"top": 36
+		},
+		"pageNumbers": true,
+		"paperSize": "a4"
+	},
+	"plugins": [
+		"-lunr",
+		"-search",
+		"-highlight",
+		"prism",
+		"prism-themes",
+		"search-plus",
+		"include-codeblock",
+		"ace",
+		"emphasize",
+		"katex",
+		"splitter",
+		"mermaid-gb3",
+		"tbfed-pagefooter",
+		"expandable-chapters-small",
+		"sectionx",
+		"local-video",
+		"simple-page-toc",
+		"terminal",
+		"include-csv",
+		"puml",	
+		"musicxml",
+		"klipse",
+		"graph",
+		"chart",
+		"copy-code-button"
+	],
+
+	"pluginsConfig": {
+		"theme-default": {
+			"showLevel":false
+		},
+		"prism": {
+			"ignore": [
+				"mermaid",
+				"eval-js"
+			],
+			"css": [
+			"prismjs/themes/prism-okaidia.css"
+			]
+		},
+		"include-codeblock": {
+			"template": "ace",
+			"unindent": true,
+			"edit": true
+		},
+		"tbfed-pagefooter": {
+			"copyright": "CrazyIvanPro © ",
+			"modify_label": "Last Edit Time：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		
+		"simple-page-toc": {
+			"maxDepth": 3,
+			"skipFirstH1": true
+		},
+		"sectionx": {
+			"tag": "b"
+		},
+		"terminal": {
+			"copyButtons": true,
+			"fade": false,
+			"style": "flat"
+		}
+	}
+}
